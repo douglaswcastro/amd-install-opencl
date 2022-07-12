@@ -4,8 +4,8 @@ This is a Shell Script to install AMD OpenCL PRO over Mesa Driver originally cre
 
 I'm adding here some extra steps to unsure the users will have amdgpu-pro OpenCL working OK over Mesa Driver.
 
-* This was tested on Pop!_OS 20.04 (AMD/Intel ISO) with DaVinci Resolve 17 Beta,
-* Ryzen 7 2700X and RX580 8GB
+* This was tested on Pop!_OS 22.04 (AMD/Intel ISO) with DaVinci Resolve 17,
+* Ryzen I5 8400 and RX580 8GB
 
 ## What you need?
 
@@ -17,7 +17,7 @@ For better compatibility, install this packages and create a symbolic link:
 
 ## Next Step,installing only OpenCL coming from AMDGPU-PRO Driver
 
-1. Download this Repository using git or your browser; ([Or Click Here](https://github.com/Diolinux/amd-opencl-pro-linux-resolve/blob/main/install-opencl-amd.sh))
+1. Download this Repository using git or your browser; ([Or Click Here](https://github.com/douglaswcastro/amd-install-opencl))
 2. Ensure the file have permissions to "run as a program"(right click over the file, going into properties and checking the box";
 3. Open the terminal on the folder were you have download this shell script and run the commando with 'sudo':
 
